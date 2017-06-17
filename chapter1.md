@@ -1,11 +1,18 @@
 ---
-title       : Insert the chapter title here
-description : Insert the chapter description here
+title       : Introduction
+description : Python Introduction
 attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
---- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:a92ddc6206
-## A really bad movie
+
+--- type:VideoExercise lang:python xp:50 skills:2 key:07ff7ba103
+## <<<New Exercise>>>
+
+
+*** =video_link
+//player.vimeo.com/video/154783078
+--- type:MultipleChoiceExercise lang:python xp:50 skills:1 key:da5b1a8565
+## What is Python
 
 Have a look at the plot that showed up in the viewer to the right. Which type of movies have the worst rating assigned to them?
 
@@ -41,7 +48,7 @@ msg_success = "Exactly! The correlation is very weak though."
 test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
 ```
 
---- type:NormalExercise lang:python xp:100 skills:1 key:3236039cce
+--- type:NormalExercise lang:python xp:100 skills:1 key:b81507ff86
 ## Plot the movies yourself
 
 Do you remember the plot of the last exercise? Let's make an even cooler plot!
